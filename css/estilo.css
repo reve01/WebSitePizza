@@ -62,28 +62,15 @@ h1,h2,h3,h4,h5{
     align-items: center;
 }
 
-.containerc{
-    width: 100%;
-    margin: auto;
-}
-.containerc--flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
 .m{
 	position:relative;
-	right: 8px;
+	right: 1px;
 	color: #ddd;
 }
-.m1{
-	position:relative;
-	left: 52px;	
-}
+
 .m2{
 	position:relative;
-	right: 10px;	
+	right: 11px;	
 }
 .column{
     width: 100%;
@@ -393,7 +380,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Responsivos------------------*/
 
-@media screen and (min-width:480px){
+@media screen and (min-width:730px){
 	.logo{
 		color: #fff;
 		
@@ -526,98 +513,3 @@ h1,h2,h3,h4,h5{
 	
 	}
 }
-@media screen and (min-width:1024px){
-	.containerc{
-			width: 1000px
-		}
-		
-		.logo{
-			padding-top: 20px;
-			font-size: 2em;
-		
-			
-		}
-			
-		.main-header__contactInfo__phone,
-		.main-header__contactInfo__addres{
-			font-size: 1.18em;
-			padding-right: 0px;
-			
-			
-			
-		}
-		
-		.main_nav{
-		
-			padding: 0px;
-		}
-		
-		.banner__content{
-			font-size:2.5em;
-		}
-		
-		.icon-menu{
-			display: none;
-		}
-		
-		.menu{
-			position: static;
-			display: flex;
-			height: 60px;
-			width: auto;
-		}
-		
-		.menu__link{
-	   
-			padding: 18px;
-		  
-		}
-		.group--color .container{
-			margin-top: 30px;
-			margin-bottom: 30px;
-			padding: 20px
-		
-		}
-		.main__title{
-			font-size: 2.5em;
-		}
-		.main__about_description .column--50:nth-child(2) .column__txt
-		{
-			line-height: 55px;
-			text-align: justify;
-			
-		}
-		.group__title{
-			font-size: 2.5em;
-		}
-		.column--50--25{
-			width: 24.5%;
-		}
-		.today-special__tittle{
-		
-			font-size: 1.9em;
-			
-		}
-		.today-special__price{
-		font-size: 2.2em;
-		
-		}
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
