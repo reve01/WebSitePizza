@@ -1,3 +1,31 @@
+@font-face {
+	font-family: 'naruto';
+	src: url(./font/njnaruto.ttf);
+}
+@font-face {
+	font-family: 'onepiece';
+	src: url(./font/one\ piece\ font.ttf);
+}
+@font-face {
+	font-family: '8bit';
+	src: url(./font/8bit.ttf);
+}
+@font-face {
+	font-family: 'death note';
+	src: url(./font/Death\ Note.ttf);
+}
+@font-face {
+	font-family: 'kaizen';
+	src: url(./font/Jujutsu\ Kaisen.ttf);
+}
+@font-face {
+	font-family: 'pokemon';
+	src: url(./font/Pokemon.ttf);
+}
+@font-face {
+	font-family: 'pokemonblanco';
+	src: url(./font/Pokemon\ Outlined.ttf);
+}
 .our-team{
 	text-align: center;
 	margin-bottom: 20px;
@@ -6,10 +34,12 @@
 	align-items: flex-start;
 }
 .our-team__title{
-	font-family: 'Pacifico',cursive;
+	font-family: "pokemon";
 	color: #de423a;
 	font-size: 1.8em;
 	margin-bottom: 10px;
+	background-color: #E9EFF2;
+	border-radius: 10px;
 }
 .our-team__img
 {
@@ -22,6 +52,18 @@
 .our-team__txt{
 	padding: 10px;
 	text-align:justify;
+	color: #E9EFF2;
+	background-color: black;
+	border-radius: 10px;
+	font-family: 'naruto';
+}
+.equipo{
+	font-family:"kaizen";
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin: 30px;
+	background-color: #F21D44;
 }
 
 @media screen and (min-width:480px){
